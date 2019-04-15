@@ -2,8 +2,8 @@
 Sistema de alerta de mensagens em PHP e JAVASCRIPT
 
 COLOCA NO HEADER
-<link rel="stylesheet" href="ionicons/css/ionicons.min.css"/>    
-<link rel="stylesheet" href="toastr/build/toastr.min.css"/>
+"<link rel="stylesheet" href="ionicons/css/ionicons.min.css"/>    
+<link rel="stylesheet" href="toastr/build/toastr.min.css"/>"
 
 COLOCA NO JAVASCRIPT
 <script type="text/javascript" src="<?=$raiz?>files/plugin/stisla/modules/toastr/build/toastr.min.js"></script>
