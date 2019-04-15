@@ -1,0 +1,31 @@
+COLOCA NO HEADER
+<link rel="stylesheet" href="<?= $raiz ?>files/plugin/stisla/modules/ionicons/css/ionicons.min.css"/>    
+<link rel="stylesheet" href="<?= $raiz ?>files/plugin/stisla/modules/toastr/build/toastr.min.css"/>
+
+COLOCA NO JAVASCRIPT
+<script type="text/javascript" src="<?=$raiz?>files/plugin/stisla/modules/toastr/build/toastr.min.js"></script>
+
+COLOCA NO INCLUDE
+include($raiz . "files/php/class/Alerta.php");
+$alerta         = new Alerta();
+$alertaMsgRecebida = $alerta->verificaMsg();
+
+COLOCA NO FINAL DO ARQUIVO JAVASCRIPT
+<?=$alertaMsgRecebida?>
+
+IMPLEMENTAÇÃO NO PHP
+$alerta->warning("texto mensagem", "redirecionamento");
+$alerta->danger
+$alerta->info
+$alerta->success
+
+IMPLEMENTAÇÃO NO JAVASCRIPT
+toastr.error(retorno.msg, 'Erro');
+toastr.warning
+toastr.error
+toastr.info
+toastr.success
+
+
+
+
